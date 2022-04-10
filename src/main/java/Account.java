@@ -1,3 +1,4 @@
+import io.qameta.allure.Step;
 
 public class Account {
 
@@ -21,7 +22,7 @@ public class Account {
         }
     }
 
-
+    @Step("Check name for embossing tape")
     public boolean checkNameToEmboss() {
         /*
              Этот метод должен проверять, что сохранённая через конструктор строка соответствует требованиям.
